@@ -1,6 +1,6 @@
 # preprocess
 
-gIMble preprocess -f ~/data/ww_pacbio_bionano_arcs_pbjelly_pilon.filt_with_mt.filt.fasta -v ~/analyses_genome_paper/variant_calling/pacbio.vcf.gz -b bam_symlinks -g 2 -m 8 -M 0.75 -t 8
+gIMble preprocess -f ww_pacbio_bionano_arcs_pbjelly_pilon.filt_with_mt.filt.fasta -v pacbio.vcf.gz -b bam_symlinks -g 2 -m 8 -M 0.75 -t 8
 
 # set up zarr stores
 
